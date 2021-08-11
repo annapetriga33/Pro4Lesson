@@ -5,7 +5,7 @@ if (howManyYears < 18 && doYouSmoke === 'нет') {
     alert( 'Молодец, так держать' );
 }   else if (howManyYears < 18 && doYouSmoke === 'да') {
     alert('Маме расскажу');
-}   else if ( howManyYears > 18 && doYouSmoke === 'нет' ) {
+}   else if ( howManyYears >= 18 && doYouSmoke === 'нет' ) {
     alert ('Молодец и не надо')
 }   else {
     alert( 'ну и зря ');
